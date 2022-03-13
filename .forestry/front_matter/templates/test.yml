@@ -1,4 +1,25 @@
 ---
 label: Test
 hide_body: true
-fields: []
+fields:
+- name: test
+  type: blocks
+  label: Test
+  template_types:
+  - test
+  config:
+    min: 
+    max: 
+  description: Test
+- name: text
+  type: text
+  config:
+    required: false
+  label: Text
+- name: color
+  type: color
+  label: Color
+  config:
+    required: false
+    color_format: Hex
+  description: Color

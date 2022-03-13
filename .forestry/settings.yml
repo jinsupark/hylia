@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: doctest
+  label: Teextdoc
+  match: "**/*"
 - type: heading
   label: Content
 - type: directory
@@ -12,6 +16,7 @@ sections:
   create: documents
   match: "*.md"
   templates:
+  - test
   - post
 - type: heading
   label: Globals

@@ -23,3 +23,12 @@ fields:
     required: false
     color_format: Hex
   description: Color
+- name: textarea
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: textarea
